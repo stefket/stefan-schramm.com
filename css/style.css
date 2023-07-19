@@ -1,0 +1,82 @@
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin-regular.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #415358;
+    color: #ccc;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.5;
+    justify-content: center;
+    margin: 0;
+    flex-flow: column;
+}
+
+a {
+    color: #EBB247;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0 40px;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 160px;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+    margin: 64px 0;
+    gap: 32px;
+    justify-content: center;
+}
+
+.social-media a {
+    opacity: 0.75;
+    transition: all 0.15s ease-in-out;
+}
+
+.social-media a:hover {
+    opacity: 1;
+}
+
+.social-media img {
+    height: 32px;
+    width: auto;
+}
+
+.imprint {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #logo {
+        max-width: 240px;
+    }
+}
