@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    background: #415358;
+    background: url(../img/noise.webp) #415358;
     color: #ccc;
     display: flex;
     font-family: 'Raleway', sans-serif;
