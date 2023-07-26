@@ -33,6 +33,12 @@ a {
     text-decoration: none;
 }
 
+a:hover,
+a:focus,
+a:active {
+    text-decoration: underline;
+}
+
 h1 {
     margin: 0 40px;
     text-align: center;
